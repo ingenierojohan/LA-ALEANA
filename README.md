@@ -3,7 +3,7 @@
 # Fecha : 2015-01-15
 # Desarrollado : Ing Johan Ramirez
 
-# METEOR VERSION = 1.0.2.1
+# METEOR VERSION = 1.0.3.1
 #---------------------------------------------------------------
 
 # Require Modulos Meteor BASE
@@ -23,5 +23,6 @@ meteor add synka:moment-with-locales      --- Libreria js para Manejar Fechas
 meteor add meteorhacks:fast-render        --- Modulos para cargar mas Rapido las Paginas de Inicio
 meteor add mrt:numeral        --- Libreria para darle FORMATO A LOS NUMEROS
 meteor add mizzao:autocomplete            --- Metodo para Autocompletar en Inputs o TexAreas
+meteor add anti:i18n          --- Libreria para Internacionalizacion de Simbolos y texto
 #----------------------------------------------------------------
 

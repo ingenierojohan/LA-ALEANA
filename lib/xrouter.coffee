@@ -1,15 +1,16 @@
+#======================================
 # CONFIGURACION DE RUTAS en IRON ROUTER
-# **************************************
+#======================================
 
+#======================================
 # Configuracion General de Iron Router
-# ======================================
 Router.configure
   loadTemplate: 'loading'
   notFoundTemplate : 'notFound'
 # ======================================
 
+#=======================================
 # FILTROS de ACCESO onBeforeAction
-# ======================================
 filters =
 # Filtro General
   authGeneral: () ->
@@ -50,8 +51,8 @@ filters =
 
 
 
+#=======================================
 # MAPEADO DE RUTAS
-# ======================================
 Router.map ->
   # Ruta Login
   @route "login",
